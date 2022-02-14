@@ -207,3 +207,6 @@ PRODUCT_COPY_FILES += \
 # (b/183612348): Enable skia reduceOpsTaskSplitting
 PRODUCT_PROPERTY_OVERRIDES += \
     renderthread.skia.reduceopstasksplitting=true
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/sysconfig_from_stock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/sysconfig_from_stock.xml
